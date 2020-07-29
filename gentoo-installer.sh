@@ -133,7 +133,6 @@ emerge sys-kernel/gentoo-sources
 echo ""
 echo "### Installing Downloaded Kernel"
 echo "sys-apps/util-linux static-libs" > /etc/portage/package.use/genkernel
-#echo "CONFIG_PROTECT="-*" " >> /etc/portage/make.conf
 echo "sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE" >> /etc/portage/package.license
 emerge sys-kernel/genkernel
 #--autounmask-write
