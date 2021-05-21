@@ -1,1 +1,1 @@
-# script to automate gentoo installation
+# My script to automate gentoo installation
